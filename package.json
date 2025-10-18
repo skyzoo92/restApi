@@ -1,10 +1,21 @@
 {
-  "name": "my-rest-api",
+  "name": "@kelvdra/Api",
   "version": "1.0.0",
-  "description": "Base REST API scraper siap deploy ke Vercel",
+  "description": "Base REST API by Kelvdra",
+  "main": "api/index.js",
   "type": "module",
   "scripts": {
-    "dev": "vercel dev"
+    "dev": "vercel dev",
+    "start": "vercel dev"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^1.7.3",
+    "qs": "^6.12.1",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "kelvdra",
+  "license": "MIT"
 }
