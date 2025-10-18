@@ -1,0 +1,10 @@
+{
+  "name": "my-rest-api",
+  "version": "1.0.0",
+  "description": "Base REST API scraper siap deploy ke Vercel",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {}
+}
